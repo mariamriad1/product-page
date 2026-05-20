@@ -1,0 +1,350 @@
+@media (max-width: 1024px) {
+  /* --- Nav --- */
+  .nav-content {
+    width: 92%;
+  }
+  .nav-options ul li {
+    margin: 15px 8px;
+  }
+
+  /* --- Hero --- */
+  .DJI {
+    margin: 120px 40px 60px;
+    gap: 30px;
+  }
+  .DJI-img {
+    width: 48%;
+  }
+  .DJI-img img {
+    width: 100%;
+    height: auto;
+  }
+  .DJI-text {
+    width: 48%;
+  }
+  .DJI-text h1 {
+    font-size: 38px;
+  }
+  .DJI-text p {
+    font-size: 16px;
+  }
+  .DJI-price {
+    width: 80%;
+  }
+
+  /* --- Containers --- */
+  .container-2 .container,
+  .container-3 .container,
+  .container-4 .container {
+    width: 92%;
+  }
+
+  /* --- Comparison table --- */
+  .Comparison-table table {
+    padding: 20px;
+    height: auto;
+  }
+
+  /* --- Reviews --- */
+  .all-content-wrapper {
+    flex-direction: column;
+  }
+  .total-rating {
+    width: 100%;
+    position: static;
+  }
+  .all-customers {
+    width: 100%;
+  }
+
+  /* --- Cards --- */
+  .cards {
+    gap: 16px;
+  }
+  .card {
+    width: calc(50% - 16px);
+  }
+
+  /* --- Footer --- */
+  .footer-container {
+    width: 92%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* --- Nav --- */
+  #nav {
+    height: auto;
+    padding: 10px 0;
+  }
+  .nav-content {
+    width: 92%;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+  .nav-text h2 {
+    font-size: 18px;
+    margin: auto 0;
+  }
+  .nav-options ul {
+    margin: 6px 0;
+    padding: 0;
+    justify-content: center;
+  }
+  .nav-options ul li {
+    margin: 6px 8px;
+  }
+  .nav-options ul li a {
+    font-size: 14px;
+  }
+
+  /* --- Hero --- */
+  .DJI {
+    flex-direction: column;
+    margin: 160px 20px 40px;
+    align-items: center;
+  }
+  .DJI-img {
+    width: 90%;
+  }
+  .DJI-img img {
+    width: 100%;
+    height: auto;
+  }
+  .DJI-text {
+    width: 90%;
+  }
+  .DJI-text h1 {
+    font-size: 36px;
+  }
+  .DJI-price {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .DJI-price #price {
+    font-size: 28px;
+  }
+  .DJI-price #old-price {
+    font-size: 20px;
+    margin-top: 32px;
+  }
+  .DJI-price .save-badge {
+    margin-top: 28px;
+  }
+
+  /* --- Containers --- */
+  .container-2 .container,
+  .container-3 .container,
+  .container-4 .container {
+    width: 95%;
+    padding: 16px;
+  }
+
+  .actual-table {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .Comparison-table table {
+    min-width: 600px;
+    height: auto;
+    padding: 16px;
+  }
+  .highlight-header,
+  .highlight,
+  .highlight-bottom {
+    width: 160px;
+  }
+  .oval {
+    left: 20px;
+    width: 110px;
+    font-size: 13px;
+  }
+  .table-title {
+    margin: 30px 10px;
+  }
+  .table-title h2 {
+    font-size: 28px;
+  }
+
+  /* --- Trophy --- */
+  .trophy {
+    width: 90%;
+    margin: 30px auto;
+  }
+
+  /* --- Reviews --- */
+  .customers-reviews-header {
+    margin: 30px 10px;
+  }
+  .customers-reviews-header h2,
+  .customers-reviews-headere h2 {
+    font-size: 28px;
+  }
+  .all-content-wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .total-rating {
+    width: 100%;
+    position: static;
+  }
+  .all-customers {
+    width: 100%;
+  }
+  .actual-status-bar {
+    width: 180px;
+  }
+
+  /* --- Related products cards --- */
+  .cards {
+    gap: 16px;
+  }
+  .card {
+    width: calc(50% - 16px);
+  }
+
+  /* --- Footer --- */
+  .footer-main {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* --- Nav --- */
+  .nav-options ul li {
+    margin: 4px 6px;
+  }
+  .nav-options ul li a {
+    font-size: 13px;
+  }
+
+  /* --- Hero --- */
+  .DJI {
+    margin: 180px 14px 30px;
+  }
+  .DJI-img,
+  .DJI-text {
+    width: 100%;
+  }
+  .DJI-text h1 {
+    font-size: 28px;
+  }
+  .DJI-text p {
+    font-size: 15px;
+  }
+  .DJI-text .badges ul {
+    gap: 6px;
+  }
+  .DJI-text .badges .badge {
+    font-size: 12px;
+    width: auto;
+    padding: 3px 10px;
+    margin: 0 4px 6px;
+  }
+  .DJI-price {
+    width: 100%;
+  }
+  .DJI-price #price {
+    font-size: 24px;
+  }
+  .DJI-price #old-price {
+    font-size: 17px;
+    margin-top: 28px;
+  }
+  .DJI-price .save-badge {
+    margin-top: 22px;
+    font-size: 12px;
+    width: 90px;
+  }
+  #add-dji,
+  #Wishlist {
+    font-size: 16px;
+    height: 44px;
+  }
+
+  /* --- Table --- */
+  .table-title h2 {
+    font-size: 22px;
+  }
+  .table-title p {
+    font-size: 14px;
+  }
+
+  /* --- Reviews --- */
+  .total-rating h3 {
+    font-size: 42px;
+  }
+  .customer-rev {
+    margin-bottom: 16px;
+  }
+  .actual-status-bar {
+    width: 140px;
+  }
+
+  /* --- Cards — single column --- */
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 90%;
+  }
+
+  /* --- Load buttons --- */
+  .load-button button {
+    width: 80%;
+    font-size: 15px;
+  }
+
+  /* --- Footer --- */
+  .footer-links {
+    min-width: unset;
+    width: 100%;
+  }
+  .footer-bottom p {
+    font-size: 12px;
+  }
+  .payment-methods img {
+    height: 24px;
+  }
+}
+
+@media (max-width: 360px) {
+  .DJI {
+    margin: 200px 10px 20px;
+  }
+  .DJI-text h1 {
+    font-size: 24px;
+  }
+  .nav-options ul li a {
+    font-size: 11px;
+  }
+  .nav-options ul li {
+    margin: 4px 4px;
+  }
+  #add-dji,
+  #Wishlist {
+    font-size: 14px;
+    height: 40px;
+  }
+  .total-rating h3 {
+    font-size: 36px;
+  }
+  .card {
+    width: 100%;
+  }
+  .actual-status-bar {
+    width: 110px;
+  }
+  .load-button button {
+    width: 95%;
+  }
+}
